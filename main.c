@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 	
-	printf("Please enter a expression: ");
+	printf("수식 입력 필요: ");
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
